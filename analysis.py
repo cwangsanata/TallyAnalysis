@@ -1,4 +1,6 @@
 def main():
+    # Replace with the path to your file
+    # Caveat: Current implementation assumes that data in file is separated by newlines
     with open('survey.txt', 'r') as file:
         data = file.readlines()
     data = [int(line.strip()) for line in data]
