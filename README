@@ -1,0 +1,14 @@
+# Tally Analysis
+
+## Overview
+This Python script is designed to analyze numerical data from a file, assuming that the data is formatted with each point on a new line. It calculates and prints key statistics such as the sample mean, sample variance, and sample standard deviation.
+
+## Usage
+1. Replace `'survey.txt'` in the `open` function with the path to your data file.
+2. Ensure that the data in the file is formatted with each data point on a new line.
+
+## How to Run
+Execute the script by running the `main` function. The statistics will be computed and displayed in the console.
+
+```bash
+python script.py
